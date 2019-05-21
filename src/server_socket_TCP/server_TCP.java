@@ -3,7 +3,7 @@
  *  담당 교수님 : 강남희 
  *	이     름 : 박경선
  *  학     과 : IT미디어공학과 
- *  제출  날짜 : 2019.05.12
+ *  제출  날짜 : 2019.05.21
  *	개발  환경 : eclipse IDE - version: 4.11.0
  */
 
@@ -58,7 +58,7 @@ public class server_TCP {
 				oos.flush(); 					// 버퍼의 데이터를 효율적으로 전송하기 위한 method
 			}
 			
-			// quit으로 사용자가 더이상 데이터를 주지 않는다면 모든 stream들을 닫아줘야한다.
+			//더이상 데이터를 주지 않는다면 모든 stream들을 닫아준다.
 			is.close();
 			ois.close();
 			os.close();

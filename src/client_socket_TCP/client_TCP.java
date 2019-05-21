@@ -3,17 +3,13 @@
  *  담당 교수님 : 강남희 
  *	이     름 : 박경선
  *  학     과 : IT미디어공학과 
- *  제출  날짜 : 2019.05.12
+ *  제출  날짜 : 2019.05.21
  *	개발  환경 : eclipse IDE - version: 4.11.0
  */
 
 package client_socket_TCP;
-import java.awt.Color;
 import java.io.*;
 import java.net.*;
-
-import javax.swing.JLabel;
-
 class client_TCP
 {
    Socket client = null;
